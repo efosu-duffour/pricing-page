@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is the pricing page of an application"/>
+    <title>Pricing page</title>
+  </head>
+  <body class="px-2">
+    <div>
+      <header class="py-[24px] @container/header-section">
+        <div
+          class="max-w-[1100px] mx-auto flex items-center justify-between gap-[12px]"
+        >
+          <svg
+            icon
+            viewBox="0 0 112 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M44.432 22L43.6 19.28H39.44L38.608 22H36L40.032 10.528H42.992L47.04 22H44.432ZM42.192 14.592C42.1387 14.4107 42.0693 14.1813 41.984 13.904C41.8987 13.6267 41.8133 13.344 41.728 13.056C41.6427 12.768 41.5733 12.5173 41.52 12.304C41.4667 12.5173 41.392 12.784 41.296 13.104C41.2107 13.4133 41.1253 13.712 41.04 14C40.9653 14.2773 40.9067 14.4747 40.864 14.592L40.048 17.248H43.024L42.192 14.592ZM49.7189 12.672C49.7189 13.0027 49.7082 13.328 49.6869 13.648C49.6655 13.968 49.6442 14.2187 49.6229 14.4H49.7189C49.9535 14.0373 50.2682 13.7333 50.6629 13.488C51.0575 13.232 51.5695 13.104 52.1989 13.104C53.1802 13.104 53.9749 13.488 54.5829 14.256C55.1909 15.0133 55.4949 16.1333 55.4949 17.616C55.4949 18.608 55.3509 19.4453 55.0629 20.128C54.7855 20.8 54.3962 21.3067 53.8949 21.648C53.3935 21.9893 52.8069 22.16 52.1349 22.16C51.4949 22.16 50.9882 22.048 50.6149 21.824C50.2522 21.5893 49.9535 21.328 49.7189 21.04H49.5589L49.1589 22H47.3349V9.84H49.7189V12.672ZM51.4309 15.008C51.0149 15.008 50.6842 15.0933 50.4389 15.264C50.1935 15.4347 50.0122 15.696 49.8949 16.048C49.7882 16.3893 49.7295 16.8213 49.7189 17.344V17.6C49.7189 18.4427 49.8415 19.0933 50.0869 19.552C50.3429 20 50.8015 20.224 51.4629 20.224C51.9535 20.224 52.3429 20 52.6309 19.552C52.9189 19.0933 53.0629 18.4373 53.0629 17.584C53.0629 16.7307 52.9135 16.0907 52.6149 15.664C52.3269 15.2267 51.9322 15.008 51.4309 15.008ZM62.5959 19.408C62.5959 19.9947 62.4572 20.496 62.1799 20.912C61.9025 21.3173 61.4865 21.6267 60.9319 21.84C60.3772 22.0533 59.6892 22.16 58.8679 22.16C58.2599 22.16 57.7372 22.1173 57.2999 22.032C56.8625 21.9573 56.4252 21.8293 55.9879 21.648V19.68C56.4572 19.8933 56.9639 20.0693 57.5079 20.208C58.0519 20.3467 58.5319 20.416 58.9479 20.416C59.4172 20.416 59.7479 20.3467 59.9399 20.208C60.1425 20.0693 60.2439 19.888 60.2439 19.664C60.2439 19.5147 60.2012 19.3813 60.1159 19.264C60.0412 19.1467 59.8705 19.0133 59.6039 18.864C59.3372 18.7147 58.9212 18.5227 58.3559 18.288C57.8119 18.0533 57.3639 17.824 57.0119 17.6C56.6599 17.3653 56.3985 17.088 56.2279 16.768C56.0572 16.4373 55.9719 16.0267 55.9719 15.536C55.9719 14.7253 56.2865 14.1173 56.9159 13.712C57.5452 13.3067 58.3825 13.104 59.4279 13.104C59.9719 13.104 60.4892 13.1573 60.9799 13.264C61.4705 13.3707 61.9772 13.5467 62.4999 13.792L61.7799 15.504C61.4919 15.376 61.2145 15.264 60.9479 15.168C60.6812 15.072 60.4199 14.9973 60.1639 14.944C59.9185 14.8907 59.6625 14.864 59.3959 14.864C59.0439 14.864 58.7772 14.912 58.5959 15.008C58.4252 15.104 58.3399 15.248 58.3399 15.44C58.3399 15.5787 58.3825 15.7067 58.4679 15.824C58.5639 15.9307 58.7399 16.048 58.9959 16.176C59.2625 16.304 59.6519 16.4747 60.1639 16.688C60.6652 16.8907 61.0972 17.104 61.4599 17.328C61.8225 17.5413 62.0999 17.8133 62.2919 18.144C62.4945 18.464 62.5959 18.8853 62.5959 19.408ZM67.173 20.256C67.4397 20.256 67.6957 20.2293 67.941 20.176C68.1863 20.1227 68.4317 20.0587 68.677 19.984V21.76C68.421 21.8667 68.101 21.9573 67.717 22.032C67.3437 22.1173 66.933 22.16 66.485 22.16C65.9623 22.16 65.493 22.0747 65.077 21.904C64.6717 21.7333 64.3463 21.44 64.101 21.024C63.8663 20.5973 63.749 20.0107 63.749 19.264V15.056H62.613V14.048L63.925 13.248L64.613 11.408H66.133V13.264H68.581V15.056H66.133V19.264C66.133 19.5947 66.229 19.8453 66.421 20.016C66.613 20.176 66.8637 20.256 67.173 20.256ZM74.3505 13.104C74.4678 13.104 74.6065 13.1093 74.7665 13.12C74.9265 13.1307 75.0545 13.1467 75.1505 13.168L74.9745 15.408C74.8998 15.3867 74.7878 15.3707 74.6385 15.36C74.4998 15.3387 74.3772 15.328 74.2705 15.328C73.9612 15.328 73.6625 15.3707 73.3745 15.456C73.0865 15.5307 72.8252 15.6533 72.5905 15.824C72.3665 15.9947 72.1852 16.224 72.0465 16.512C71.9185 16.7893 71.8545 17.136 71.8545 17.552V22H69.4705V13.264H71.2785L71.6305 14.736H71.7425C71.9132 14.4373 72.1265 14.1653 72.3825 13.92C72.6385 13.6747 72.9318 13.4773 73.2625 13.328C73.6038 13.1787 73.9665 13.104 74.3505 13.104ZM79.0476 13.088C80.221 13.088 81.117 13.344 81.7356 13.856C82.365 14.3573 82.6796 15.1307 82.6796 16.176V22H81.0156L80.5516 20.816H80.4876C80.2423 21.1253 79.9863 21.3813 79.7196 21.584C79.4636 21.7867 79.165 21.9307 78.8236 22.016C78.493 22.112 78.0823 22.16 77.5916 22.16C77.0796 22.16 76.6156 22.064 76.1996 21.872C75.7943 21.6693 75.4743 21.3653 75.2396 20.96C75.005 20.544 74.8876 20.0213 74.8876 19.392C74.8876 18.464 75.213 17.7813 75.8636 17.344C76.5143 16.896 77.4903 16.6507 78.7916 16.608L80.3116 16.56V16.176C80.3116 15.7173 80.189 15.3813 79.9436 15.168C79.709 14.9547 79.3783 14.848 78.9516 14.848C78.525 14.848 78.109 14.912 77.7036 15.04C77.2983 15.1573 76.893 15.3067 76.4876 15.488L75.7036 13.872C76.173 13.6267 76.6903 13.4347 77.2556 13.296C77.8316 13.1573 78.429 13.088 79.0476 13.088ZM79.3836 17.984C78.6156 18.0053 78.0823 18.144 77.7836 18.4C77.485 18.656 77.3356 18.992 77.3356 19.408C77.3356 19.7707 77.4423 20.032 77.6556 20.192C77.869 20.3413 78.1463 20.416 78.4876 20.416C78.9996 20.416 79.4316 20.2667 79.7836 19.968C80.1356 19.6587 80.3116 19.2267 80.3116 18.672V17.952L79.3836 17.984ZM87.7119 22.16C86.8479 22.16 86.1119 22.0053 85.5039 21.696C84.8959 21.376 84.4319 20.8853 84.1119 20.224C83.7919 19.5627 83.6319 18.7147 83.6319 17.68C83.6319 16.6133 83.8132 15.744 84.1759 15.072C84.5385 14.4 85.0399 13.904 85.6799 13.584C86.3305 13.264 87.0772 13.104 87.9199 13.104C88.5172 13.104 89.0345 13.1627 89.4719 13.28C89.9199 13.3973 90.3092 13.536 90.6399 13.696L89.9359 15.536C89.5625 15.3867 89.2105 15.264 88.8799 15.168C88.5599 15.072 88.2399 15.024 87.9199 15.024C87.5039 15.024 87.1572 15.1253 86.8799 15.328C86.6025 15.52 86.3945 15.8133 86.2559 16.208C86.1279 16.592 86.0639 17.0773 86.0639 17.664C86.0639 18.24 86.1332 18.72 86.2719 19.104C86.4212 19.4773 86.6345 19.76 86.9119 19.952C87.1892 20.1333 87.5252 20.224 87.9199 20.224C88.4212 20.224 88.8639 20.16 89.2479 20.032C89.6319 19.8933 90.0052 19.7067 90.3679 19.472V21.504C90.0052 21.7387 89.6212 21.904 89.2159 22C88.8212 22.1067 88.3199 22.16 87.7119 22.16ZM95.0986 20.256C95.3653 20.256 95.6213 20.2293 95.8666 20.176C96.112 20.1227 96.3573 20.0587 96.6026 19.984V21.76C96.3466 21.8667 96.0266 21.9573 95.6426 22.032C95.2693 22.1173 94.8586 22.16 94.4106 22.16C93.888 22.16 93.4186 22.0747 93.0026 21.904C92.5973 21.7333 92.272 21.44 92.0266 21.024C91.792 20.5973 91.6746 20.0107 91.6746 19.264V15.056H90.5386V14.048L91.8506 13.248L92.5386 11.408H94.0586V13.264H96.5066V15.056H94.0586V19.264C94.0586 19.5947 94.1546 19.8453 94.3466 20.016C94.5386 20.176 94.7893 20.256 95.0986 20.256ZM99.7801 22H97.3961V9.84H99.7801V22ZM100.063 13.264H102.671L104.319 18.176C104.372 18.336 104.415 18.496 104.447 18.656C104.49 18.816 104.522 18.9813 104.543 19.152C104.575 19.3227 104.596 19.504 104.607 19.696H104.655C104.687 19.4187 104.73 19.1573 104.783 18.912C104.847 18.656 104.916 18.4107 104.991 18.176L106.607 13.264H109.167L105.471 23.12C105.247 23.7173 104.954 24.2187 104.591 24.624C104.239 25.0293 103.828 25.3333 103.359 25.536C102.89 25.7387 102.378 25.84 101.823 25.84C101.556 25.84 101.322 25.824 101.119 25.792C100.927 25.7707 100.756 25.744 100.607 25.712V23.824C100.724 23.8453 100.863 23.8667 101.023 23.888C101.194 23.9093 101.37 23.92 101.551 23.92C101.882 23.92 102.164 23.8507 102.399 23.712C102.644 23.5733 102.847 23.3813 103.007 23.136C103.167 22.9013 103.295 22.6453 103.391 22.368L103.535 21.936L100.063 13.264Z"
+              fill="#171717"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.5006 23.8999H20.8638L21.7445 26.5H10.6199L11.5006 23.8999ZM4.26556 26.499L11.8635 5.5H4.33333C3.04467 5.5 2 6.54467 2 7.83333V24.1667C2 25.4327 3.00824 26.4632 4.26556 26.499ZM28.1524 26.4494C29.2079 26.2259 30 25.2888 30 24.1667V7.83333C30 6.54467 28.9553 5.5 27.6667 5.5H20.5724L28.1524 26.4494ZM16.1822 9.99793L19.2914 19.1825H13.1088L16.1822 9.99793Z"
+              fill="#6366F1"
+            />
+          </svg>
+          <ul class="hidden @4xl/header-section:flex gap-[18px] ml-[10%]">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="hidden @4xl/header-section:flex gap-[18px] ml-auto">
+            <button type="button">Learn more</button>
+            <button type="button" class="btn-primary">See pricing</button>
+          </div>
+          <button menu-button type="button" aria-label="hamburger">
+            <svg
+              width="20"
+              height="20"
+              hamburger
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="@4xl/header-section:hidden"
+            >
+              <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <main class="mt-[12px]">
+        <div class="max-w-[1100px] mx-auto grid gap-[84px]">
+          <h1 class="sr-only">Good pricing to build great applications.</h1>
+          <section prices-section class="@container/prices-section">
+            <header>
+              <span class="block text-center">Pricing tiers</span>
+              <h2 class="mt-[8px] text-center">Fit for all your needs</h2>
+              <p class="mt-[8px] text-center">
+                Pick the plan that suits you today and step up as your demands
+                grow - our flexible options have your journey mapped out.
+              </p>
+            </header>
+            <form >
+              <fieldset
+                class="max-w-[300px] w-[70%] mx-auto mt-[32px] flex justify-between gap-[12px]"
+              >
+                <legend class="sr-only">Pricing period</legend>
+                <label>
+                  <input
+                    class="sr-only"
+                    type="radio"
+                    name="period"
+                    value="monthly"
+                    checked
+                  />
+                  Monthly
+                </label>
+                <label>
+                  <input
+                    class="sr-only"
+                    type="radio"
+                    name="period"
+                    value="annually"
+                  />
+                  Annually
+                </label>
+              </fieldset>
+            </form>
+            <div plans class="mt-[48px] grid gap-[32px] @4xl/prices-section:grid-cols-3">
+              <section basic-plan class="@4xl/prices-section:flex flex-col">
+                <header>
+                  <h3>Basic Plan</h3>
+                  <p class="mt-[4px]">
+                    Access to a curated selection of abstract images
+                  </p>
+                </header>
+                <p class="mt-[18px]" data-plan="basic">
+                  <em price>$9.99</em><span period>/month</span
+                  ><span class="block mt-[-2px]" extras>Billed monthly</span>
+                </p>
+                <ul class="mt-[32px] grid gap-[18px]">
+                  <li class="flex items-center gap-[8px]">
+                    <span>Standard quality images</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>Limited to personal use</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>Email support</span>
+                  </li>
+                </ul>
+                <button class="mt-[32px] w-full @4xl/prices-section:mt-auto" type="button">Buy now</button>
+              </section>
+              <section most-popular id="most-popular" class="relative">
+                <span class="absolute top-0 right-0 left-0 text-center"
+                  >Most Popular</span
+                >
+                <div>
+                  <header class="mt-[64px]">
+                    <h3>Standard Plan</h3>
+                    <p class="mt-[4px]">
+                      Next-level Integrations, priced economically
+                    </p>
+                  </header>
+                  <p class="mt-[18px]" data-plan="standard">
+                    <em price>$19.99</em><span period>/month</span
+                    ><span class="block mt-[-2px]">Price in USD</span>
+                  </p>
+                  <ul class="mt-[32px] grid gap-[18px]">
+                    <li class="flex items-center gap-[8px]">
+                      <span
+                        >Expanded library with more diverse abstract
+                        images</span
+                      >
+                    </li>
+                    <li class="flex items-center gap-[8px]">
+                      <span>High-resolution images available</span>
+                    </li>
+                    <li class="flex items-center gap-[8px]">
+                      <span>Suitable for commercial use</span>
+                    </li>
+                    <li class="flex items-center gap-[8px]">
+                      <span>Priority email support</span>
+                    </li>
+                    <li class="flex items-center gap-[8px]">
+                      <span>Advanced analytics</span>
+                    </li>
+                  </ul>
+                  <button
+                    class="mt-[24px] w-full btn-primary"
+                    type="button"
+                    class="btn-primary"
+                  >
+                    Buy now
+                  </button>
+                </div>
+              </section>
+              <section premium-plan class="@4xl/prices-section:flex flex-col">
+                <header>
+                  <h3>Premium Plan</h3>
+                  <p class="mt-[4px]">
+                    Experience limitless living for power users
+                  </p>
+                </header>
+                <p class="mt-[18px]" data-plan="premium">
+                  <em price>$29.99</em><span period>/month</span
+                  ><span class="block mt-[-2px]" extras>Billed monthly</span>
+                </p>
+                <ul class="mt-[32px] grid gap-[18px]">
+                  <li class="flex items-center gap-[8px]">
+                    <span
+                      >Full access to the entire image libray, including
+                      exclusive content</span
+                    >
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span
+                      >Highest quality images, including premium
+                      collections</span
+                    >
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>Commercial and resale rights</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>Dedicated customer support line</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>24/7 support response time</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <span>Advanced analytics and insights</span>
+                  </li>
+                </ul>
+                <button class="mt-[32px] w-full @4xl/prices-section:mt-auto" type="button">Buy now</button>
+              </section>
+            </div>
+          </section>
+          <section>
+            <header>
+              <h2 class="text-center">Frequently asked questions</h2>
+              <p class="mt-[8px] text-center">Choose any questions you need</p>
+            </header>
+            <div class="mt-[32px]">
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  Are there any discount available for long-term subscriptions?
+                </summary>
+                <p class="mt-[12px]">
+                  Yes! We offer a discount on annual subscriptions. If you
+                  choose an annual payment plan, you will receive a discount
+                  compared to monthly payments. This is a great way to enjoy all
+                  the features of our platform at a reduced cost.
+                </p>
+              </details>
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  Can I change my subscription plan at any time?
+                </summary>
+                <p class="mt-[12px]">
+                  Absolutely! You can upgrade or downgrade you subscription at
+                  any time. Changes to you plan will take effect at the start of
+                  your next billing cycle.
+                </p>
+              </details>
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  What forms of payment do you accept?
+                </summary>
+                <p class="mt-[12px]">
+                  We accept all major credit cards, including Visa, MasterCard,
+                  and American Express. We also accept payments through PayPal
+                  for added convenience.
+                </p>
+              </details>
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  Do you offer any special pricing for educational institutions
+                  or non-profits?
+                </summary>
+                <p class="mt-[12px]">
+                  Yes, we support educational institutions and non-profit
+                  organizations by offering special discounted pricing. Please
+                  contact us for more details and to see if you qualify.
+                </p>
+              </details>
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  What is your refund policy?
+                </summary>
+                <p class="mt-[12px]">
+                  We offer a 30-day money-back guarantee. If you're not
+                  satisfied with our service within the first 30 days of your
+                  subscrition, you can cancel your plan and receive a full
+                  refund.
+                </p>
+              </details>
+              <details open>
+                <summary class="flex justify-between gap-[12px]">
+                  Are there any additional fees apart from the subscription
+                  cost?
+                </summary>
+                <p class="mt-[12px]">
+                  No, there are no hidden fees. The subsciption price is
+                  all-inclusive, covering full access to our library and all
+                  features listed in your chosen plan.
+                </p>
+              </details>
+            </div>
+            <section banner class="@container/banner mt-[16px]">
+              <div class="grid gap-[16px] @md/banner:grid-cols-[1fr_auto]">
+                <p>
+                  <span>Can't find the answer you're looking for?</span
+                  ><span class="block mt-[8px]"
+                    >Reach out to our
+                    <a href="#">customer support</a> team.</span
+                  >
+                </p>
+                <button type="button" class="btn-primary self-center">
+                  Get in touch
+                </button>
+              </div>
+            </section>
+          </section>
+          <section class="@container">
+            <header>
+              <span class="block text-center">Premium abstract images</span>
+              <h2 class="mt-[8px] text-center">
+                Easy access to top quality images
+              </h2>
+              <p class="mt-[8px] text-center">
+                In a world where storytelling constantly evolves, we lead with
+                groundbreaking images designed for your presentation excellence.
+              </p>
+            </header>
+            <div class="mt-[32px] grid gap-[32px] @md:grid-cols-2 @2xl:grid-cols-3">
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>Infinite Download</span
+                  ><span
+                    >Once you subscribe to our plans, they're all yours.
+                    Download as many as you want and use them for work
+                    presentations, wallpapers, and much more.</span
+                  >
+                </p>
+              </div>
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M15.4565 9.67503L15.3144 9.53297C14.6661 8.90796 13.8549 8.43369 12.9235 8.18412C10.0168 7.40527 7.22541 9.05273 6.43185 12.0143C6.38901 12.1742 6.36574 12.3537 6.3285 12.8051C6.17423 14.6752 5.73449 16.0697 4.5286 17.4842C6.78847 18.3727 9.46572 18.9986 11.5016 18.9986C13.9702 18.9986 16.1644 17.3394 16.8126 14.9202C17.3306 12.9869 16.7513 11.0181 15.4565 9.67503ZM13.2886 6.21301L18.2278 2.37142C18.6259 2.0618 19.1922 2.09706 19.5488 2.45367L22.543 5.44787C22.8997 5.80448 22.9349 6.37082 22.6253 6.76891L18.7847 11.7068C19.0778 12.8951 19.0836 14.1721 18.7444 15.4379C17.8463 18.7897 14.8142 20.9986 11.5016 20.9986C8 20.9986 3.5 19.4967 1 17.9967C4.97978 14.9967 4.04722 13.1865 4.5 11.4967C5.55843 7.54658 9.34224 5.23935 13.2886 6.21301ZM16.7015 8.09161C16.7673 8.15506 16.8319 8.21964 16.8952 8.28533L18.0297 9.41984L20.5046 6.23786L18.7589 4.4921L15.5769 6.96698L16.7015 8.09161Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>Purely Handcrafted</span
+                  ><span
+                    >No AI, no generic images. Crafted from various chemicals,
+                    fabrics, clouds, or even particles as small as dust.</span
+                  >
+                </p>
+              </div>
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M16.2877 9.42773C15.413 7.97351 13.8195 7 12 7 9.23999 7 7 9.23999 7 12 7 14.76 9.23999 17 12 17 13.8195 17 15.413 16.0265 16.2877 14.5723L14.5729 13.5442C14.0483 14.4166 13.0927 15 12 15 10.3425 15 9 13.6575 9 12 9 10.3425 10.3425 9 12 9 13.093 9 14.0491 9.58386 14.5735 10.4568L16.2877 9.42773ZM22 12C22 6.47998 17.52 2 12 2 6.47998 2 2 6.47998 2 12 2 17.52 6.47998 22 12 22 17.52 22 22 17.52 22 12ZM4 12C4 7.57996 7.57996 4 12 4 16.42 4 20 7.57996 20 12 20 16.42 16.42 20 12 20 7.57996 20 4 16.42 4 12Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>All Are Under Licensed</span
+                  ><span
+                    >The only limitation with these abstract images is that you
+                    are not able to sell them in any form, whether digital or
+                    hard copy (such as paintings or prints on paper).</span
+                  >
+                </p>
+              </div>
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M19.3788 15.1057C20.9258 11.4421 19.5373 7.11431 16.0042 5.0745C13.4511 3.60046 10.4232 3.69365 8.03452 5.0556L7.04216 3.31879C10.028 1.61639 13.8128 1.4999 17.0042 3.34245C21.4949 5.93513 23.2139 11.4848 21.1217 16.112L22.4635 16.8867L18.2984 19.1008L18.1334 14.3867L19.3788 15.1057ZM4.62961 8.89968C3.08263 12.5633 4.47116 16.8911 8.00421 18.9309C10.5573 20.4049 13.5851 20.3118 15.9737 18.9499L16.9661 20.6867C13.9803 22.389 10.1956 22.5055 7.00421 20.663C2.51357 18.0703 0.794565 12.5206 2.88672 7.89342L1.54492 7.11873L5.70999 4.90463L5.87505 9.61873L4.62961 8.89968ZM8.50421 14.0027H14.0042C14.2804 14.0027 14.5042 13.7788 14.5042 13.5027C14.5042 13.2266 14.2804 13.0027 14.0042 13.0027H10.0042C8.6235 13.0027 7.50421 11.8834 7.50421 10.5027C7.50421 9.122 8.6235 8.00271 10.0042 8.00271H11.0042V7.00271H13.0042V8.00271H15.5042V10.0027H10.0042C9.72807 10.0027 9.50421 10.2266 9.50421 10.5027C9.50421 10.7788 9.72807 11.0027 10.0042 11.0027H14.0042C15.3849 11.0027 16.5042 12.122 16.5042 13.5027C16.5042 14.8834 15.3849 16.0027 14.0042 16.0027H13.0042V17.0027H11.0042V16.0027H8.50421V14.0027Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>Cancel Anytime</span
+                  ><span
+                    >Subscribe at your own pace, and cancel when you feel it's
+                    enough.</span
+                  >
+                </p>
+              </div>
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 11C14.7614 11 17 13.2386 17 16V22H15V16C15 14.4023 13.7511 13.0963 12.1763 13.0051L12 13C10.4023 13 9.09634 14.2489 9.00509 15.8237L9 16V22H7V16C7 13.2386 9.23858 11 12 11ZM5.5 14C5.77885 14 6.05009 14.0326 6.3101 14.0942C6.14202 14.594 6.03873 15.122 6.00896 15.6693L6 16L6.0007 16.0856C5.88757 16.0456 5.76821 16.0187 5.64446 16.0069L5.5 16C4.7203 16 4.07955 16.5949 4.00687 17.3555L4 17.5V22H2V17.5C2 15.567 3.567 14 5.5 14ZM18.5 14C20.433 14 22 15.567 22 17.5V22H20V17.5C20 16.7203 19.4051 16.0796 18.6445 16.0069L18.5 16C18.3248 16 18.1566 16.03 18.0003 16.0852L18 16C18 15.3343 17.8916 14.694 17.6915 14.0956C17.9499 14.0326 18.2211 14 18.5 14ZM5.5 8C6.88071 8 8 9.11929 8 10.5C8 11.8807 6.88071 13 5.5 13C4.11929 13 3 11.8807 3 10.5C3 9.11929 4.11929 8 5.5 8ZM18.5 8C19.8807 8 21 9.11929 21 10.5C21 11.8807 19.8807 13 18.5 13C17.1193 13 16 11.8807 16 10.5C16 9.11929 17.1193 8 18.5 8ZM5.5 10C5.22386 10 5 10.2239 5 10.5C5 10.7761 5.22386 11 5.5 11C5.77614 11 6 10.7761 6 10.5C6 10.2239 5.77614 10 5.5 10ZM18.5 10C18.2239 10 18 10.2239 18 10.5C18 10.7761 18.2239 11 18.5 11C18.7761 11 19 10.7761 19 10.5C19 10.2239 18.7761 10 18.5 10ZM12 2C14.2091 2 16 3.79086 16 6C16 8.20914 14.2091 10 12 10C9.79086 10 8 8.20914 8 6C8 3.79086 9.79086 2 12 2ZM12 4C10.8954 4 10 4.89543 10 6C10 7.10457 10.8954 8 12 8C13.1046 8 14 7.10457 14 6C14 4.89543 13.1046 4 12 4Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>Empowering For Team</span
+                  ><span
+                    >We support multiple seats at once, requiring only a single
+                    payment.</span
+                  >
+                </p>
+              </div>
+              <div>
+                <div class="w-fit mx-auto">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 4C9.25144 4 6.82508 5.38626 5.38443 7.5H8V9.5H2V3.5H4V5.99936C5.82381 3.57166 8.72764 2 12 2C17.5228 2 22 6.47715 22 12H20C20 7.58172 16.4183 4 12 4ZM4 12C4 16.4183 7.58172 20 12 20C14.7486 20 17.1749 18.6137 18.6156 16.5H16V14.5H22V20.5H20V18.0006C18.1762 20.4283 15.2724 22 12 22C6.47715 22 2 17.5228 2 12H4Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="mt-[16px] flex flex-col gap-[8px] text-center">
+                  <span heading>No Limitations</span
+                  ><span
+                    >Use as many as you want, from Dribble presentation to
+                    PowerPoint presentations.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="@container/testimonial-section">
+            <header>
+              <span class="block text-center">Testimonials</span>
+              <h2 class="mt-[8px] text-center">
+                Countless users, countless smiles
+              </h2>
+              <p class="mt-[8px] text-center">
+                Explore our community's journey and discover why satisfaction
+                defines us.
+              </p>
+            </header>
+            <div cards class="grid gap-[24px] mt-[48px] @2xl/testimonial-section:grid-cols-2 @3xl/testimonial-section:grid-cols-3">
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail.jpg"
+                    alt="sarah dole avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Sarah Dole</span
+                    ><span social-link>@sarahdole</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    I've been searching for high-quality abstract images for my
+                    design projects, and I'm thrilled to have found this
+                    platform. The variety and depth of creativity are
+                    astounding!
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_3.jpg"
+                    alt="jake johnson avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Jake Johnson</span
+                    ><span social-link>@jakejohnson</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    From corporate presentation to personal projects, the
+                    abstract images on this platform have added a touch of
+                    elegance and sophistication to everything I create.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_6.jpg"
+                    alt="marcus thompson avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Marcus Thompson</span
+                    ><span social-link>@mthompson</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    Using abstract images from this platform has helped me
+                    convey complex concepts in a visually engaging way. My
+                    clients are always impressed!
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_1.jpg"
+                    alt="john appleseed avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>John Appleseed</span
+                    ><span social-link>@johnaseed</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    As an artist, finding inspiration is crucial. This platform
+                    has become my go-to source for unique abstract images that
+                    ignite my creativity like never before.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_4.jpg"
+                    alt="igor stravinsky avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Igor Stravinsky</span
+                    ><span social-link>@igorstrav</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    The subscription plans are worth every penny. Having
+                    unlimited access to premium abstract images has transformed
+                    my design workflow and elevated the quality of my work.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_7.jpg"
+                    alt="oliver neverloved avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Oliver Neverloved</span
+                    ><span social-link>@olivenever</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    I appreciated how user-friendly the platform is. Browsing,
+                    downloading, and managing my image library couldn't be
+                    easier.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_2.jpg"
+                    alt="jean gray avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Jean Gray</span><span social-link>@jeniic</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    I never thought I'd find such stunning abstract images for
+                    free! This platform has exceeded my expectations in every
+                    way.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_5.jpg"
+                    alt="declan rice avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Declan Rice</span><span social-link>@drice</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    I'm amazed by the attention to detail in every images on
+                    this platform. It's clear that a lot of thought and
+                    creativity goes into curating the collection.
+                  </p>
+                </blockquote>
+              </figure>
+              <figure>
+                <figcaption class="flex items-center gap-[12px]">
+                  <img
+                    src="/images/profile-thumbnail_8.jpg"
+                    alt="mark denniss avatar"
+                  />
+                  <p class="flex flex-col gap-[2px]">
+                    <span name>Mark Dennis</span
+                    ><span social-link>@marked</span>
+                  </p>
+                </figcaption>
+                <blockquote class="mt-[12px]">
+                  <p>
+                    The customer support team went above and beyound to help me
+                    with a subscription issue. Their dedication to customer
+                    satisfaction is truly commendable.
+                  </p>
+                </blockquote>
+              </figure>
+            </div>
+          </section>
+          <section contact-section class="@container/contact-section">
+            <div class="@3xl/contact-section:grid grid-cols-2 gap-[16px]">
+              <div>
+                <header>
+                  <h2>Talk to our team</h2>
+                  <p class="mt-[8px]">
+                    We're committed to delivering the support you require to
+                    make your experience as smooth as possible.
+                  </p>
+                </header>
+                <ul class="mt-[24px] grid gap-[18px]">
+                  <li class="flex items-center gap-[8px]">
+                    <div>
+                      <svg
+                        width="20"
+                        height="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M21 19H23V21H1V19H3V4C3 3.44772 3.44772 3 4 3H14C14.5523 3 15 3.44772 15 4V19H19V11H17V9H20C20.5523 9 21 9.44772 21 10V19ZM5 5V19H13V5H5ZM7 11H11V13H7V11ZM7 7H11V9H7V7Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>123 Maple Street, Springfield, IL, USA</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <div>
+                      <svg
+                        width="20"
+                        height="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>+1 (650) 555-0198</span>
+                  </li>
+                  <li class="flex items-center gap-[8px]">
+                    <div>
+                      <svg
+                        width="20"
+                        height="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>hello@abstractly.com</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-[48px] @container/contact-form @3xl/contact-section:mt-[0px]">
+                <form class="grid gap-[18px] @md/contact-form:grid-cols-2">
+                  <label class="flex flex-col gap-[8px]">
+                    <span>Name</span>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                      autocomplete="name"
+                    />
+                  </label>
+                  <label class="flex flex-col gap-[8px]">
+                    <span>Email</span>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="example@example.com"
+                      autocomplete="email"
+                    />
+                  </label>
+                  <label class="flex flex-col gap-[8px] col-span-full">
+                    <span>Message</span>
+                    <textarea
+                      rows="4"
+                      spellcheck="true"
+                      autocorrect="on"
+                      name="message"
+                      maxlength="500"
+                      placeholder="Write your message..."
+                    ></textarea>
+                    <span id="indicator" class="self-end">0/500</span>
+                  </label>
+                  <button
+                    type="submit"
+                    class="btn-primary col-span-full mt-[8px]"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="pt-[84px]">
+        <div>
+          <ul class="flex gap-[18px] mx-auto w-fit">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="flex gap-[12px] mx-auto w-fit mt-[24px]">
+            <li>
+              <a href="#" aria-label="YouTube"
+                ><svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram"
+                ><svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Facebook"
+                ><svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M14 19H19V5H5V19H12V14H10V12H12V10.3458C12 9.00855 12.1392 8.52362 12.4007 8.03473C12.6622 7.54584 13.0458 7.16216 13.5347 6.9007C13.9174 6.69604 14.3922 6.57252 15.2217 6.51954C15.551 6.49851 15.9771 6.52533 16.5 6.6V8.5H16C15.0827 8.5 14.7042 8.54332 14.4779 8.66433C14.3376 8.73939 14.2394 8.83758 14.1643 8.97793C14.0433 9.20418 14 9.42853 14 10.3458V12H16.5L16 14H14V19ZM4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3Z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="GitHub"
+                ><svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M5.88401 18.6533C5.58404 18.4526 5.32587 18.1975 5.0239 17.8369C4.91473 17.7065 4.47283 17.1524 4.55811 17.2583C4.09533 16.6833 3.80296 16.417 3.50156 16.3089C2.9817 16.1225 2.7114 15.5499 2.89784 15.0301C3.08428 14.5102 3.65685 14.2399 4.17672 14.4263C4.92936 14.6963 5.43847 15.1611 6.12425 16.0143C6.03025 15.8974 6.46364 16.441 6.55731 16.5529C6.74784 16.7804 6.88732 16.9182 6.99629 16.9911C7.20118 17.1283 7.58451 17.1874 8.14709 17.1311C8.17065 16.7489 8.24136 16.3783 8.34919 16.0358C5.38097 15.3104 3.70116 13.3952 3.70116 9.63971C3.70116 8.40085 4.0704 7.28393 4.75917 6.3478C4.5415 5.45392 4.57433 4.37284 5.06092 3.15636C5.1725 2.87739 5.40361 2.66338 5.69031 2.57352C5.77242 2.54973 5.81791 2.53915 5.89878 2.52673C6.70167 2.40343 7.83573 2.69705 9.31449 3.62336C10.181 3.41879 11.0885 3.315 12.0012 3.315C12.9129 3.315 13.8196 3.4186 14.6854 3.62277C16.1619 2.69 17.2986 2.39649 18.1072 2.52651C18.1919 2.54013 18.2645 2.55783 18.3249 2.57766C18.6059 2.66991 18.8316 2.88179 18.9414 3.15636C19.4279 4.37256 19.4608 5.45344 19.2433 6.3472C19.9342 7.28337 20.3012 8.39208 20.3012 9.63971C20.3012 13.3968 18.627 15.3048 15.6588 16.032C15.7837 16.447 15.8496 16.9105 15.8496 17.4121C15.8496 18.0765 15.8471 18.711 15.8424 19.4225C15.8412 19.6127 15.8397 19.8159 15.8375 20.1281C16.2129 20.2109 16.5229 20.5077 16.6031 20.9089C16.7114 21.4504 16.3602 21.9773 15.8186 22.0856C14.6794 22.3134 13.8353 21.5538 13.8353 20.5611C13.8353 20.4708 13.836 20.3417 13.8375 20.1145C13.8398 19.8015 13.8412 19.599 13.8425 19.4094C13.8471 18.7019 13.8496 18.0716 13.8496 17.4121C13.8496 16.7148 13.6664 16.2602 13.4237 16.051C12.7627 15.4812 13.0977 14.3973 13.965 14.2999C16.9314 13.9666 18.3012 12.8177 18.3012 9.63971C18.3012 8.68508 17.9893 7.89571 17.3881 7.23559C17.1301 6.95233 17.0567 6.54659 17.199 6.19087C17.3647 5.77663 17.4354 5.23384 17.2941 4.57702L17.2847 4.57968C16.7928 4.71886 16.1744 5.0198 15.4261 5.5285C15.182 5.69438 14.8772 5.74401 14.5932 5.66413C13.7729 5.43343 12.8913 5.315 12.0012 5.315C11.111 5.315 10.2294 5.43343 9.40916 5.66413C9.12662 5.74359 8.82344 5.69492 8.57997 5.53101C7.8274 5.02439 7.2056 4.72379 6.71079 4.58376C6.56735 5.23696 6.63814 5.77782 6.80336 6.19087C6.94565 6.54659 6.87219 6.95233 6.61423 7.23559C6.01715 7.8912 5.70116 8.69376 5.70116 9.63971C5.70116 12.8116 7.07225 13.9683 10.023 14.2999C10.8883 14.3971 11.2246 15.4769 10.5675 16.0482C10.3751 16.2156 10.1384 16.7802 10.1384 17.4121V20.5611C10.1384 21.5474 9.30356 22.2869 8.17878 22.09C7.63476 21.9948 7.27093 21.4766 7.36613 20.9326C7.43827 20.5204 7.75331 20.2116 8.13841 20.1276V19.1381C7.22829 19.1994 6.47656 19.0498 5.88401 18.6533Z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="X (Twitter)"
+                ><svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M10.4883 14.651L15.25 21H22.25L14.3917 10.5223L20.9308 3H18.2808L13.1643 8.88578L8.75 3H1.75L9.26086 13.0145L2.31915 21H4.96917L10.4883 14.651ZM16.25 19L5.75 5H7.75L18.25 19H16.25Z"
+                  ></path></svg
+              ></a>
+            </li>
+          </ul>
+          <p class="mx-auto w-max mt-[12px]">
+            &copy; 2024 Abstractly, Inc. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

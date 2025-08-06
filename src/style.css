@@ -1,7 +1,10 @@
-@import "tailwindcss";
 @import "open-props/gray";
 @import "open-props/indigo";
 @import "open-props/sizes";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@config "../tailwind.config.js";
+
 
 :where(html) {
   --xx-small: 0.25rem;
